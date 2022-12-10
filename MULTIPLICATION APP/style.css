@@ -1,0 +1,81 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: monospace;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: rgb(237, 237, 230);
+}
+
+.form {
+	background-color: white;
+	padding: 2rem;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+	border-radius: 8px;
+	width: 500px;
+}
+
+h1 {
+	font-weight: 500;
+}
+
+h4 {
+	font-weight: 400;
+}
+
+.input {
+	display: block;
+	width: 100%;
+	outline: none;
+	padding: 3px 5px;
+	font-family: monospace;
+	font-size: 22px;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 3px;
+	margin: 10px 0;
+}
+
+.input::placeholder {
+	color: lightgray;
+}
+
+.btn {
+	width: 100%;
+	font-size: 20px;
+	padding: 3px 5px;
+	background-color: black;
+	color: white;
+	border-radius: 3px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.reset {
+	width: 100%;
+	font-size: 20px;
+	padding: 3px 5px;
+	background-color: black;
+	color: white;
+	border-radius: 3px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+	margin-top: 10px;
+}
+
+.btn:hover {
+	transform: scale(0.99);
+	filter: brightness(0.9);
+}
+
+.score {
+	color: green;
+	text-align: right;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
